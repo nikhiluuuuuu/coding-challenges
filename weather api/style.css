@@ -1,0 +1,42 @@
+body{
+    font-weight: bold;
+    background-image: url("sky.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.top{
+    /* font-size: 30px; */
+    text-align: center;
+    padding: 20px;
+    /* margin: 30px; */
+    width: 100%;
+    /* background-image: url("top-bg.webp"); */
+    /* background: linear-gradient(to left,rgb(110, 197, 231),rgb(223, 162, 49)); */
+}
+.searchBox{
+border: 3px solid;
+border-radius: 10px;
+height: 3vw;
+padding: 15px;
+margin: 10px;
+
+    
+}
+.searchoption{
+    text-align: center;
+    padding: 2%;
+    margin: 1%;
+}
+
+.searchBtn{
+    padding: 6px 10px;
+        background: rgb(255, 255, 255);
+        color: green;
+        border: none;
+        cursor: pointer;
+        border-radius: 4px;
+}
+.searchBtn:hover{
+    background-color: black;
+}
