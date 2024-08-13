@@ -1,0 +1,29 @@
+1.open browser and go to nodejs installer click on
+pre built installer download node js(v20+)
+--file will get downloaded
+2.next>next>next>install it
+3.open command promt and type the following cmnds
+i)node -v
+ii)npm -v
+4.npm stants for node package manager
+5.npm will handle everything that happends inside the
+project(eg.installs and uninstalls the packages)
+6.we need to install cli that is command line input
+in angular 
+npm install -g @angular/cli
+7.after installation create new folder open the
+folder in cmd and run the following command to
+create new project
+ng new appname
+8.to run the application you need to go back
+the folder and click on search bar then again
+enter cmd   ng serve
+9.the app will build and it will give an 
+local host address paste that in any browser
+then your application will run succesfullly
+10.the project is having multiple files here mainly
+i)app.component.html is the body
+ii)app.component.css is the style sheet
+iii)main.ts is the main scripting file
+iv)out of the app we have index.html which is the main
+entry of our application
