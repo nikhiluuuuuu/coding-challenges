@@ -1,0 +1,13 @@
+<!-- <div *ngFor="let todo of todos">
+<app-todo-page [todo1]="todos"></app-todo-page>
+</div> -->
+
+<div class="container-fluid mt-5">
+
+  <ul class="list-group" *ngFor="let todo of todos">
+    <li class="list-group-item">{{todo.title}}</li>
+    <li class="list-group-item">{{todo.desc}}</li>
+    <li class="list-group-item">{{todo.sno}}</li>
+    <li class="list-group-item">{{todo.active}}</li>
+  </ul>
+</div>
